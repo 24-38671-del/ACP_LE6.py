@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+    <h1>Welcome to FlaskRecords!</h1>
+    <p>This page is currently not the main entry point.</p>
+    <p>Please visit the <a href="{{ url_for('main.list_records') }}">Records List</a>.</p>
+{% endblock %}
